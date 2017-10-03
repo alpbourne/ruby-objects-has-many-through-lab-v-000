@@ -2,7 +2,7 @@ class Song
 
   attr_accessor :name, :genre, :artist
 
-  def initaliaze(name, genre)
+  def initalize(name, genre)
     @name = name
     @genre = genre
     genre.add_song(self)
