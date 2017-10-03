@@ -2,7 +2,7 @@ class Song
 
   attr_accessor :name, :genre. :artist
 
-  def initaliaze(name)
+  def initaliaze(name, genre)
     @name = name
     @songs = []
   end
