@@ -5,7 +5,7 @@ class Song
   def initaliaze(name, genre)
     @name = name
     @genre = genre
-    genre.song << self
+    genre.songs << self
   end
 
 end
