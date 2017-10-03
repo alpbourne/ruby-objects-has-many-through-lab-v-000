@@ -1,14 +1,10 @@
 class Song
 
-  attr_accessor :genre
+  attr_accessor :name, :genre. :artist
 
   def initaliaze(name)
     @name = name
     @songs = []
-  end
-
-  def add_song(song)
-    @songs << song
   end
 
 end
