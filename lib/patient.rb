@@ -4,5 +4,5 @@ class Patient
     @name = name
     @appointments = []
   end
-  
+
 end
